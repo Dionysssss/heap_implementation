@@ -10,7 +10,7 @@ all: llrec-test
 llrec-test: llrec-test.cpp llrec.cpp llrec.h
 	$(CXX) $(CXXFLAGS) -o $@ llrec.cpp llrec-test.cpp
 
-stack_test: stack_test.cpp stack.h
+stack-test: stack-test.cpp stack.h
 	$(CXX) $(CXXFLAGS) -o $@ $<
 
 clean:
