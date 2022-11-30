@@ -69,7 +69,7 @@ void Stack<T>::pop()
 		{
 			throw std::underflow_error("No items in the stack!");
 		}
-	std::vector<T>::pop();
+	std::vector<T>::pop_back();
 }
 
 
